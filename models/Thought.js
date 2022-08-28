@@ -4,7 +4,7 @@ const dateFormat = require('../utils/dateFormat');
 const ReactionSchema = new Schema({
    // set custom id to avoid confusion with parent thought _id
    reactionId: {
-      type: Schema.Type.ObjectId,
+      type: Schema.Types.ObjectId,
       default: () => new Types.ObjectId()
    },
    reactionBody: {
@@ -57,7 +57,7 @@ const ThoughtSchema = new Schema(
 );
 
 // get total count of reactions 
-ThoughtSchema.virtal('reactionCount').get(function () {
+ThoughtSchema.virtual('reactionCount').get(function () {
    return this.reactions.length;
 });
 
