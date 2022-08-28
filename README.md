@@ -4,7 +4,7 @@
 ## Description
 Back-end for a basic social networking app using a NoSQL database. API routes adhere to standard CRUD methodology, allowing users to create/read/update/delete new Users as well as user Thoughts. Users can be linked to one another via "friends" lists. Users can react to Thoughts by creating Reactions. 
 
-Watch a complete demo of the API routes [here](https://drive.google.com/file/d/1POxehrW0r7bcL5YPusQLmNenhK7H431z/view).
+Watch a complete demo of the API routes tested in Insomnia [here](https://drive.google.com/file/d/1POxehrW0r7bcL5YPusQLmNenhK7H431z/view).
 ![Screenshot](./assets/images/Social%20Network%20API%20gif.gif)
 
 
